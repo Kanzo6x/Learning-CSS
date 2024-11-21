@@ -1,0 +1,41 @@
+html{
+    text-align: center;
+}
+
+*{/* universal selector */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {/* element selecrtor */
+    font-size: 22px;
+    border: solid 5px black;
+}
+
+h1 , h2{/* group selector */
+    color: blue;
+}
+
+p{
+    color: red;
+}
+
+p { /* element selecotr */
+    color: purple;
+}
+
+p span{ /* inhertance selector */
+    color: red;
+    background-color: yellow ;
+    text-transform: uppercase;
+}
+.gray {/* class selector */
+    color: gray;
+}
+
+#second { /* id selector */
+    font-family: monospace;
+}
+
+button, input, select, textarea{ /* form elements does not take the font style from the body */
+    font: inherit;
+}
