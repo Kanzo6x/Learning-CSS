@@ -1,0 +1,15 @@
+.div1 {
+    font-size: 20px;
+}
+
+.div2 {
+    font-size: 30px;
+    width:90%;
+}
+
+.div3{
+    font-size:2rem;
+}
+
+/* rem for the root element */
+/* em for the parent elemnet */
